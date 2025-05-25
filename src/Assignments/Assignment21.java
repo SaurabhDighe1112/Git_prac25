@@ -11,6 +11,8 @@ e
 t
 t
 */
+package Assignments;
+
 class Assignment21{
 	void duplicateCharInStr(String str){
 		for(int index=0; index<str.length(); index++){

@@ -2,6 +2,8 @@
 Assignment 11
 Write a program to print Day based on day index
 */
+package Assignments;
+
 class Assignment11{
 	
 	String getDay(int dayIndex){

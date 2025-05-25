@@ -13,6 +13,7 @@ creditAmount
 debitAmount
 display
 */
+package Assignments;
 
 class Assignment8{
 	long balance;

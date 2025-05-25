@@ -12,6 +12,7 @@ Employee last name is Kanani
 Employee current salary is 7000
 
 */
+package Assignments;
 
 class Assignment3{
 	String empFirstName, empLastName;

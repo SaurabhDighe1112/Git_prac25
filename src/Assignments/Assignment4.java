@@ -9,6 +9,8 @@ firstName, lastName, empId (int), managerld (int), address (String), phoneNumber
 5)	displayAlllnfo() -> firstName, lastName, empId, managerld, address, phoneNumber
 main -> updatePrimaryInfo() -> updateSecondaryInfo() -> displayPrimaryInfo() -> displayOtherInfo() -> displayAlllnfo()
 */
+package Assignments;
+
 class Assignment4{
 	String firstName, lastName, address, phoneNumber;
 	int empId, managerld;

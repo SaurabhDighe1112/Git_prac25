@@ -4,6 +4,8 @@ Print all the duplicate char from given string but this char should not repeat.
 input: technocreditst
 output: tec
 */
+package Assignments;
+
 class Assignment22{
 	void duplicateChar(String str){
 		String duplicateCharInStr="";

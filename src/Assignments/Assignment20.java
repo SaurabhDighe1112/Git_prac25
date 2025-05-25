@@ -4,6 +4,8 @@ print all unique chars in given string
 input: technocredits
 output: hnordis
 */
+package Assignments;
+
 class Assignment20{
 	void uniqueCharWithoutStringClassMethod(String str){
 		String uniqueStr="";

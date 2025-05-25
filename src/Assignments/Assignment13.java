@@ -3,6 +3,8 @@ Assignment13
 Write 2 methods to find bigger numbers from 2 numbers
 and another to find smaller number from 2 numbers
 */
+package Assignments;
+
 class Assignment13{
 	int getBiggerNumber(int num1, int num2){
 		if(num1>num2)

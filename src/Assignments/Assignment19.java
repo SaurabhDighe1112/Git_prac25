@@ -19,6 +19,8 @@ Functional Requirements (Each as a separate method):
 6. Nth Last Divisible Number Accept a number n from the user and return the nth last number divisible by 7 from the range. Example output: 
 3rd last divisible by 7 in the range is: 35
 */
+package Assignments;
+
 class Assignment19{
 	int numDivBy7(int startRange, int endRange, int i){
 		if(startRange<endRange){

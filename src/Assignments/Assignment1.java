@@ -6,6 +6,7 @@ output :
 Maulik Kanani 1212
 
 */
+package Assignments;
 
 class Assignment1{
 	

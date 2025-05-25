@@ -2,6 +2,8 @@
 Assignment 10
 Based on index print quarter and month name
 */
+package Assignments;
+
 class Assignment10{
 	String monthName(int monthIndex){
 		if(monthIndex>=1 && monthIndex<=12){

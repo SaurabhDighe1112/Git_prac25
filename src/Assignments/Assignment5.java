@@ -16,6 +16,8 @@ credit method call count -> 3
 printstatment method call count -> 1
 Note : debitAmt deduct 200 rs, creditAmt increase balance by 400 rs
 */
+package Assignments;
+
 class Assignment5{
 	int balance= 1000,debitCount, creditCount, printStatementCount;
 	

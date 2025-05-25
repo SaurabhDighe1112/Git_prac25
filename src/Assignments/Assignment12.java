@@ -2,6 +2,8 @@
 Assignment12
 Print name with count from 1 to 5;
 */
+package Assignments;
+
 class Assignment12{
 	void processData(String str){
 		for(int i=1; i<=5;i++){

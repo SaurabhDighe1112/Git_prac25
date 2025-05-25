@@ -3,6 +3,8 @@ Assignment17
 for given string print all character on new line.
 input: techno
 */
+package Assignments;
+
 class Assignment17{
 	void printCharInStr(String str){
 		for(int index=0; index<str.length();index++){

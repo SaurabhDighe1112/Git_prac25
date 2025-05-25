@@ -4,6 +4,8 @@ on user defined string print freq of char e
 input: technocredits;
 output: e -> 2
 */
+package Assignments;
+
 class Assignment18{
 	void getFreqOfChar_e_inStr(String str){
 		int count=0;

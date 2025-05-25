@@ -10,6 +10,8 @@ Print students grade based on obtained marks
 
 Any other score to be considered as invalid
 */
+package Assignments;
+
 class Assignment9{
 	String studentGrade(int percentage){
 		if(percentage>=0 && percentage<=100){

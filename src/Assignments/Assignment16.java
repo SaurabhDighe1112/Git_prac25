@@ -6,6 +6,8 @@ WAP that accepts user defined range(10,50) and perform the following tasks
 3. Calculate and print the sum of all number divisible by 7 within the range
 4. Calculate and print the average of numbers divisible by 7
 */
+package Assignments;
+
 class Assignment16{
 	int maxNum, sum, count;
 	

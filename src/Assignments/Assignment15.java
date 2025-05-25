@@ -5,6 +5,8 @@ Output: Numbers divisible by 5 & 3 are:
 15
 30
 */
+package Assignments;
+
 class Assignment15{
 	void getNumbersDivBy5and3(int startRange, int endRange){
 		System.out.println("Numbers divisible by 5 & 3 are:");

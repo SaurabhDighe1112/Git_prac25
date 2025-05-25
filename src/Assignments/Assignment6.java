@@ -22,6 +22,8 @@ total credit Operations -> 4
 total printstatement Operations -> 4
 
 */
+package Assignments;
+
 class Assignment6{
 	int balance= 1000,debitCount, creditCount, printStatementCount;
 	

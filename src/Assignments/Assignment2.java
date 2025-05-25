@@ -21,6 +21,7 @@ Remaning balance is 900
 Remaning balance is 1100
 Remaning balance is 600
 */
+package Assignments;
 
 class Assignment2{
 	int balance = 1000;

@@ -1,5 +1,5 @@
 /*
- * WAP to return a union of 2 arrays and print in main method
+ * WAP to return a union of 2 arrays and print in main method 
  * input1: {10,12,3,4};
  * input2: {44,1,55};
  */

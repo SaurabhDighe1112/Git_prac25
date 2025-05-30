@@ -1,6 +1,6 @@
 /*
  * Print all the names and there length from given array in reverse order
- * input: {"techno","technocredits","aaryahi"};
+ * input: {"techno","technocredits","aaryahi"}; 
  */
 
 package assignments;

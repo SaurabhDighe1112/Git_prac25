@@ -1,4 +1,4 @@
-package assignments34;
+package assignments.assignments34;
 
 public class Parent {
 	void display() {

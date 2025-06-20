@@ -1,4 +1,4 @@
-package assignments34;
+package assignments.assignments34;
 
 public class Child extends Parent {
 	public static void main(String[] args) {

@@ -8,7 +8,7 @@ Step 6 Click on "Cancel" button.
 Step 7 Verify "You pressed Cancel!! " text below the JavaScript Confirmation button
  */
 
-package SeleniumAssignments;
+package seleniumAssignments;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

@@ -4,7 +4,7 @@
  *	[20209 =3, 20205 = 4, 10101 =2]
  */
 
-package SeleniumAssignments;
+package seleniumAssignments;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

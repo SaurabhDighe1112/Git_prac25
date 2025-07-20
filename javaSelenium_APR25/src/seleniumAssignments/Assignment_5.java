@@ -14,7 +14,7 @@ Step 12: Deselect all the  options [deselectAll()]
 Step 13: Verify that the  size is zero
  */
 
-package SeleniumAssignments;
+package seleniumAssignments;
 
 import java.util.List;
 

@@ -10,7 +10,7 @@ Step 8 Enter anything in the text box and click Ok
 Step 7 Verify "Hello Saurabh! How are you today?" text below the JavaScript PROMPT button
  */
 
-package SeleniumAssignments;
+package seleniumAssignments;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

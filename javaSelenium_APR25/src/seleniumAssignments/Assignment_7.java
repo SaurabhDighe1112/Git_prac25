@@ -1,7 +1,7 @@
 //Que: Can you return a map from the EMPLOYEE BASIC INFORMATION table with Username → FirstName
 
 
-package SeleniumAssignments;
+package seleniumAssignments;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

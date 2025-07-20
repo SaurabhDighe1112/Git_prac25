@@ -22,7 +22,7 @@ Q9 : find all the duplicate lastname from the Employee Basic Information table.
 output : Kanani
  */
 
-package SeleniumAssignments;
+package seleniumAssignments;
 
 import java.util.Arrays;
 import java.util.LinkedHashMap;

@@ -7,7 +7,7 @@ Step 5 Verify that the message is "You must be TechnoCredits student!!"
 Step 6 Click on Ok button.
  */
 
-package SeleniumAssignments;
+package seleniumAssignments;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

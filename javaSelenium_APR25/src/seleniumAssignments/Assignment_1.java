@@ -8,7 +8,7 @@
  *	Step 7 Verify that "Failed! please enter strong password" message is shown.
  */
 
-package SeleniumAssignments;
+package seleniumAssignments;
 
 import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;

@@ -4,7 +4,7 @@
  *	Employee Department → Employee Id
  */
 
-package SeleniumAssignments;
+package seleniumAssignments;
 
 import java.util.LinkedHashMap;
 import java.util.Map;

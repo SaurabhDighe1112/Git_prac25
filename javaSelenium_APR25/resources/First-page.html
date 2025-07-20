@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>TechnoCredits Registration Form</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      margin: 0;
+      font-family: 'Segoe UI', sans-serif;
+      background: linear-gradient(to right, #74ebd5, #acb6e5);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      padding: 40px 10px;
+      min-height: 100vh;
+    }
+
+    form {
+      background-color: white;
+      padding: 30px 40px;
+      border-radius: 12px;
+      box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+      max-width: 500px;
+      width: 100%;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 25px;
+      color: #2c3e50;
+    }
+
+    label {
+      display: block;
+      margin-bottom: 6px;
+      font-weight: 600;
+      color: #2f3542;
+    }
+
+    input[type="text"],
+    input[type="email"],
+    select {
+      width: 100%;
+      padding: 10px;
+      margin-bottom: 18px;
+      border: 1px solid #dcdde1;
+      border-radius: 6px;
+      background-color: #f9f9f9;
+      transition: border-color 0.3s;
+    }
+
+    input[type="text"]:focus,
+    input[type="email"]:focus,
+    select:focus {
+      border-color: #2980b9;
+      outline: none;
+    }
+
+    .radio-group {
+      margin-bottom: 18px;
+    }
+
+    .radio-group label {
+      margin-right: 20px;
+      font-weight: 500;
+      color: #34495e;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-top: 25px;
+      background-color: #fdfdfd;
+      border: 1px solid #ddd;
+    }
+
+    th, td {
+      border: 1px solid #ccc;
+      padding: 10px;
+      text-align: center;
+    }
+
+    th {
+      background-color: #3498db;
+      color: white;
+    }
+
+    td {
+      background-color: #f9f9f9;
+    }
+
+    .terms {
+      margin-top: 20px;
+      font-size: 14px;
+      color: #2c3e50;
+    }
+
+    .terms input {
+      margin-right: 8px;
+    }
+
+    .button-group {
+      display: flex;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+
+    button[type="submit"] {
+      background-color: #3498db;
+      color: white;
+      padding: 10px 25px;
+      border: none;
+      border-radius: 6px;
+      font-size: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button[type="submit"]:hover {
+      background-color: #2980b9;
+    }
+
+    button[type="reset"] {
+      background-color: transparent;
+      color: #2c3e50;
+      border: 1px solid #ccc;
+      padding: 10px 25px;
+      border-radius: 6px;
+      font-size: 15px;
+      cursor: pointer;
+      transition: background-color 0.3s;
+    }
+
+    button[type="reset"]:hover {
+      background-color: #f1f1f1;
+    }
+
+    .info-link {
+      display: block;
+      text-align: center;
+      margin-top: 20px;
+      font-weight: 500;
+    }
+
+    .info-link a {
+      color: #2980b9;
+      text-decoration: none;
+    }
+
+    .info-link a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+  <form>
+    <h2>Technocredits Registration Form</h2>
+    <p>please fill this form to register for course</p>
+
+    <label for="fName">First Name</label>
+    <input type="text" id="fName" name="firstN" placeholder="Enter First Name" required />
+
+    <label for="lName">Last Name</label>
+    <input type="text" id="lName" name="lastN" placeholder="Enter Last Name" required />
+
+    <label for="email">Email</label>
+    <input type="email" id="email" placeholder="example@domain.com" required />
+
+    <label>Gender</label>
+    <div class="radio-group">
+      <label><input type="radio" name="gender" value="Male" required /> Male
+      <input type="radio" name="gender" value="Female" /> Female</label>
+    </div>
+	
+	<label>Select the Automation Course</label>
+    <div class="radio-group">
+      <label><input type="radio" name="course" value="UITesting" required /> UI Automation
+      <input type="radio" name="course" value="APITesting" /> API Automation</label>
+    </div>
+	
+    <label for="stream">Engineering Stream</label>
+    <select id="stream" required>
+      <option value="" disabled selected>Select branch</option>
+      <option value="CE">CE</option>
+      <option value="ME">ME</option>
+      <option value="EE">EE</option>
+      <option value="ECE">ECE</option>
+      <option value="Other">Other</option>
+    </select>
+
+    <!-- Course Table -->
+    <table>
+      <thead>
+        <tr>
+          <th>Course Name</th>
+          <th>Available Seats</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>API Automation</td>
+          <td>5</td>
+        </tr>
+        <tr>
+          <td>UI Automation</td>
+          <td>8</td>
+        </tr>
+        <tr>
+          <td>Playwright Automation</td>
+          <td>15</td>
+        </tr>
+        <tr>
+          <td>Mobile Automation</td>
+          <td>1</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <!-- Terms & Conditions -->
+    <div class="terms">
+      <label>
+        <input type="checkbox" required>
+        I agree to the <a href="#" target="_blank">Terms & Conditions</a>
+      </label>
+    </div>
+
+    <!-- Buttons -->
+    <div class="button-group">
+      <button type="submit">Submit</button>
+      <button type="reset">Clear</button>
+    </div>
+
+    <!-- More Info Link -->
+    <div class="info-link">
+      <a href="http://automationbykrishna.com" target="_blank">Click here for more info</a>
+    </div>
+  </form>
+
+</body>
+</html>

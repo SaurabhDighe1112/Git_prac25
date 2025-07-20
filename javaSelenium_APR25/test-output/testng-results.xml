@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-07-20T01:38:47 IST" name="Default suite" finished-at="2025-07-20T01:39:05 IST" duration-ms="18175">
+    <groups>
+    </groups>
+    <test started-at="2025-07-20T01:38:47 IST" name="Default test" finished-at="2025-07-20T01:39:05 IST" duration-ms="18175">
+      <class name="SeleniumAssignments.Assignment_9">
+        <test-method is-config="true" signature="start()[pri:0, instance:SeleniumAssignments.Assignment_9@742ff096]" started-at="2025-07-20T01:38:47 IST" name="start" finished-at="2025-07-20T01:39:01 IST" duration-ms="14021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method is-config="true" signature="navigateToDemoTables()[pri:0, instance:SeleniumAssignments.Assignment_9@742ff096]" started-at="2025-07-20T01:39:01 IST" name="navigateToDemoTables" finished-at="2025-07-20T01:39:02 IST" duration-ms="452" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToDemoTables -->
+        <test-method signature="getManagerCount()[pri:0, instance:SeleniumAssignments.Assignment_9@742ff096]" started-at="2025-07-20T01:39:02 IST" name="getManagerCount" finished-at="2025-07-20T01:39:03 IST" duration-ms="1371" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getManagerCount -->
+        <test-method is-config="true" signature="navigateToDemoTables()[pri:0, instance:SeleniumAssignments.Assignment_9@742ff096]" started-at="2025-07-20T01:39:03 IST" name="navigateToDemoTables" finished-at="2025-07-20T01:39:03 IST" duration-ms="241" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToDemoTables -->
+        <test-method signature="getManagerTeamCount()[pri:0, instance:SeleniumAssignments.Assignment_9@742ff096]" started-at="2025-07-20T01:39:03 IST" name="getManagerTeamCount" finished-at="2025-07-20T01:39:04 IST" duration-ms="911" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- getManagerTeamCount -->
+        <test-method is-config="true" signature="close()[pri:0, instance:SeleniumAssignments.Assignment_9@742ff096]" started-at="2025-07-20T01:39:04 IST" name="close" finished-at="2025-07-20T01:39:05 IST" duration-ms="870" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- close -->
+      </class> <!-- SeleniumAssignments.Assignment_9 -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

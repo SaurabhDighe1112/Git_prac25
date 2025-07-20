@@ -1,0 +1,2 @@
+INDEX VERSION 1.134+D:\Automation_Testing\2025\javaSelenium_APR25\.metadata\.plugins\org.eclipse.jdt.core
+1865797976.index

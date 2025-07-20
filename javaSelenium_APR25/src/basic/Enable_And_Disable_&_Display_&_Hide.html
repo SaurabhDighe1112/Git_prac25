@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Toggle Example</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 40px;
+      background-color: #f9f9f9;
+      color: #333;
+    }
+
+    input[type="text"] {
+      padding: 8px;
+      width: 300px;
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+
+    button {
+      padding: 10px 20px;
+      font-size: 16px;
+      margin: 10px 5px;
+      cursor: pointer;
+      background-color: #007BFF;
+      border: none;
+      color: white;
+      border-radius: 5px;
+    }
+
+    button:hover {
+      background-color: #0056b3;
+    }
+
+    #myDIV {
+      width: 100%;
+      padding: 30px;
+      text-align: center;
+      background-color: lightblue;
+      margin-top: 20px;
+      border-radius: 8px;
+    }
+
+    .note {
+      font-style: italic;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h2>Text Field Toggle</h2>
+  <label for="myText">Name:</label>
+  <input type="text" id="myText" />
+
+  <p>Click the button to disable or enable the text field:</p>
+  <button onclick="toggleInput()">Enable / Disable</button>
+
+  <hr />
+
+  <h2>DIV Visibility Toggle</h2>
+  <p>Click the button to toggle the visibility of the DIV element:</p>
+  <button onclick="toggleDiv()">Show / Hide DIV</button>
+
+  <div id="myDIV">
+    <strong>This is TECHNOCREDITS</strong>
+  </div>
+
+  <p class="note"><strong>Note:</strong> TECHNOCREDITS</p>
+
+  <script>
+    function toggleInput() {
+      const input = document.getElementById("myText");
+      input.disabled = !input.disabled;
+    }
+
+    function toggleDiv() {
+      const div = document.getElementById("myDIV");
+      div.style.display = div.style.display === "none" ? "block" : "none";
+    }
+  </script>
+
+</body>
+</html>
